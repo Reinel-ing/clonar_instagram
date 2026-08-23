@@ -34,16 +34,23 @@ class ProfilePostScreen extends StatelessWidget {
       body: SafeArea(
         child: Column(
           children: [
-            const TopHeader(),
-            const SizedBox(height: 12),
-            const StoriesRow(),
-            const SizedBox(height: 12),
-            const PostHeader(),
-            const SizedBox(height: 8),
-            const PostImage(),
-            const ActionsBar(),
-            const CaptionText(),
-            const Spacer(),
+            Expanded(
+              child: SingleChildScrollView(
+                child: Column(
+                  children: [
+                    const TopHeader(),
+                    const SizedBox(height: 12),
+                    const StoriesRow(),
+                    const SizedBox(height: 12),
+                    const PostHeader(),
+                    const SizedBox(height: 8),
+                    const PostImage(),
+                    const ActionsBar(),
+                    const CaptionText(),
+                  ],
+                ),
+              ),
+            ),
             const BottomNavBar(),
           ],
         ),

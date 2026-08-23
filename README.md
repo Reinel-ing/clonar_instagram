@@ -51,7 +51,7 @@ lib/widgets/triangle_icon.dart     - Icono de compartir dibujado a mano (CustomP
 - Widgets extraidos: cada seccion vive en su propio archivo, ningun build() supera las 60 lineas
 - const donde corresponde
 - flutter analyze sin advertencias
-- Desplegada en web: (enlace pendiente de agregar tras el despliegue)
+- Desplegada en web: https://reinel-ing.github.io/clonar_instagram/
 
 ## Notas
 

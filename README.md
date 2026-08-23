@@ -12,22 +12,25 @@ A la izquierda, la captura original tomada de la app de Instagram. A la derecha,
 
 ## Como correr el proyecto
 
+```
 cd clonar_instagram
 flutter pub get
 flutter run
-
+```
 ## Estructura del proyecto
 
-lib/main.dart - Punto de entrada y pantalla principal
-lib/theme/app_colors.dart - Tokens de color de marca (degradado de historias)
-lib/widgets/top_header.dart - Encabezado: + | Instagram | corazon
-lib/widgets/stories_row.dart - Historias (scroll horizontal)
-lib/widgets/post_header.dart - Info del post: avatar, usuario, Seguir, menu
-lib/widgets/post_image.dart - Imagen del post + badges superpuestos (Stack)
-lib/widgets/actions_bar.dart - Barra de acciones (like, comentar, compartir...)
-lib/widgets/caption_text.dart - Texto de la publicacion
-lib/widgets/bottom_nav_bar.dart - Barra de navegacion inferior
-lib/widgets/triangle_icon.dart - Icono de compartir dibujado a mano (CustomPainter)
+```
+lib/main.dart
+lib/theme/app_colors.dart          - Tokens de color de marca (degradado de historias)
+lib/widgets/top_header.dart        - Encabezado: + | Instagram | corazon
+lib/widgets/stories_row.dart       - Historias (scroll horizontal)
+lib/widgets/post_header.dart       - Info del post: avatar, usuario, Seguir, menu
+lib/widgets/post_image.dart        - Imagen del post + badges superpuestos (Stack)
+lib/widgets/actions_bar.dart       - Barra de acciones (like, comentar, compartir...)
+lib/widgets/caption_text.dart      - Texto de la publicacion
+lib/widgets/bottom_nav_bar.dart    - Barra de navegacion inferior
+lib/widgets/triangle_icon.dart     - Icono de compartir dibujado a mano (CustomPainter)
+```
 
 ## Widgets de layout utilizados
 
